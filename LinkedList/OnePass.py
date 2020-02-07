@@ -11,6 +11,9 @@ class Solution:
 
     def removeNthFromEnd(self, head: ListNode, n: int)-> ListNode:
         # Using One Pass Algorithm (Here it uses dummy variable)
+        """
+        First and Second are two pointers
+        """
         temp = ListNode(0)
         temp.next = head
         first = second = head
