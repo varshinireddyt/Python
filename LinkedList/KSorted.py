@@ -12,7 +12,7 @@ class ListNode(object):
 
 class KSorted:
 
-    def mergeKLists(self, lists)
+    def mergeKLists(self, lists):
         if not lists:
             return
         if len(lists) == 1:
