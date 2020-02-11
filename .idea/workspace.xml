@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61b6a965-4768-49ac-94bf-2a16db8fccbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/OnePass.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/OnePass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/Remove.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/Remove.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
       <recent name="$PROJECT_DIR$/venv/LinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Add">
+  <component name="RunManager" selected="Python.Unique">
     <configuration name="Add" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +103,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Linear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="SLLN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,13 +124,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unique" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Unique.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Unique" />
         <item itemvalue="Python.Add" />
         <item itemvalue="Python.SLLN" />
         <item itemvalue="Python.BubbleSort" />
         <item itemvalue="Python.BinarySearch" />
-        <item itemvalue="Python.Linear" />
       </list>
     </recent_temporary>
   </component>
@@ -181,29 +181,53 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="147" key="GridCell.Tab.0.bottom" timestamp="1579753368771">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="262" key="GridCell.Tab.0.bottom" timestamp="1581442260089">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state width="1659" height="147" key="GridCell.Tab.0.bottom/0.23.1680.943@0.23.1680.943" timestamp="1579753368771" />
     <state width="1659" height="147" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1579488888421" />
-    <state width="1659" height="147" key="GridCell.Tab.0.center" timestamp="1579753368771">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="262" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1581442260089" />
+    <state width="1659" height="262" key="GridCell.Tab.0.center" timestamp="1581442260088">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state width="1659" height="147" key="GridCell.Tab.0.center/0.23.1680.943@0.23.1680.943" timestamp="1579753368771" />
     <state width="1659" height="147" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1579488888421" />
-    <state width="1659" height="147" key="GridCell.Tab.0.left" timestamp="1579753368771">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="262" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1581442260088" />
+    <state width="1659" height="262" key="GridCell.Tab.0.left" timestamp="1581442260088">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state width="1659" height="147" key="GridCell.Tab.0.left/0.23.1680.943@0.23.1680.943" timestamp="1579753368771" />
     <state width="1659" height="147" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1579488888420" />
-    <state width="1659" height="147" key="GridCell.Tab.0.right" timestamp="1579753368771">
-      <screen x="0" y="23" width="1680" height="943" />
+    <state width="1659" height="262" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1581442260088" />
+    <state width="1659" height="262" key="GridCell.Tab.0.right" timestamp="1581442260089">
+      <screen x="0" y="23" width="1680" height="958" />
     </state>
     <state width="1659" height="147" key="GridCell.Tab.0.right/0.23.1680.943@0.23.1680.943" timestamp="1579753368771" />
     <state width="1659" height="147" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1579488888421" />
-    <state x="519" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1581031379794">
+    <state width="1659" height="262" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1581442260089" />
+    <state width="1659" height="262" key="GridCell.Tab.1.bottom" timestamp="1581442260090">
       <screen x="0" y="23" width="1680" height="958" />
     </state>
-    <state x="519" y="403" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1581031379794" />
+    <state width="1659" height="262" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1581442260090" />
+    <state width="1659" height="262" key="GridCell.Tab.1.center" timestamp="1581442260090">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1659" height="262" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1581442260090" />
+    <state width="1659" height="262" key="GridCell.Tab.1.left" timestamp="1581442260089">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1659" height="262" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1581442260089" />
+    <state width="1659" height="262" key="GridCell.Tab.1.right" timestamp="1581442260090">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="1659" height="262" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1581442260090" />
+    <state width="840" height="410" key="XDebugger.FullValuePopup" timestamp="1581378778809">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state width="840" height="410" key="XDebugger.FullValuePopup/0.23.1680.958@0.23.1680.958" timestamp="1581378778809" />
+    <state x="519" y="403" key="com.intellij.ide.util.TipDialog" timestamp="1581372827943">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="519" y="403" key="com.intellij.ide.util.TipDialog/0.23.1680.958@0.23.1680.958" timestamp="1581372827943" />
   </component>
 </project>

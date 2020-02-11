@@ -9,10 +9,6 @@ class Solution:
     def __init__(self):
         self.head = None
 
-    def create(self,x):
-        new_node = ListNode(x)
-
-
     def removeNthFromEnd(self, head: ListNode, n: int)-> ListNode:
         # Two Pass Algorithim
         """If length < position then we can't remove the node
