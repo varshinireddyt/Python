@@ -25,6 +25,27 @@ def checkPermutation(s1,s2):
     y = sortString(s2) #sorted string 2
     return x == y
 
-s1 = 'abc'
-s2 = 'cbad'
-print(checkPermutation(s1,s2))
+"""
+Solution 2: Using Dictonary 
+Import the defaultdict from collections in order to set the key value pair
+or you can use counter 
+Time Complexity: O(n)
+"""
+from collections import defaultdict
+def findPermutation(s1, s2):
+    if len(s1) != len(s2):
+        return False
+    dic = defaultdict(int)
+    for c in s1:
+        dic[c] += 1
+    for i in s2:
+        if dic[i] == 0:
+            return False
+
+        dic[i] -= 1
+    return True
+
+s1 = 'wef34f'
+s2 = 'wffe34'
+# print(checkPermutation(s1,s2))
+print(findPermutation(s1, s2))
