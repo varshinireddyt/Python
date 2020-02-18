@@ -15,7 +15,7 @@ def editDistance(str1,str2,m,n):
                 dp_table[i][j] == dp_table[i][j-1] + 1
             elif j == 0:
                 dp_table[i][j] == dp_table[i-1][j] + 1
-            elif str1[i-1] == str2[j-1]:
+            elif str1[i-1] == str2[j-2]:
                 dp_table[i][j] = dp_table[i-1][j-1]
             else:
                 dp_table[i][j] = 1 + min(dp_table[i][j-1], dp_table[i-1][j], dp_table[i-1][j-1])
