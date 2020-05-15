@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+linkedlist/__init__.py
+linkedlist/linked_list.py
+linkedlist.egg-info/PKG-INFO
+linkedlist.egg-info/SOURCES.txt
+linkedlist.egg-info/dependency_links.txt
+linkedlist.egg-info/not-zip-safe
+linkedlist.egg-info/top_level.txt
