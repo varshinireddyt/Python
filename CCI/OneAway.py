@@ -6,6 +6,7 @@ Using Minimum Edit Distance(Dynamic Programing)
 credits: https://www.youtube.com/watch?v=b6AGUjqIPsA
 """
 def editDistance(str1,str2,m,n):
+
     dp_table = [[0 for x in range(n+1)] for y in range(m+1)]
     for i in range(m+1):
         for j in range(n+1):
@@ -15,7 +16,7 @@ def editDistance(str1,str2,m,n):
                 dp_table[i][j] == dp_table[i][j-1] + 1
             elif j == 0:
                 dp_table[i][j] == dp_table[i-1][j] + 1
-            elif str1[i-1] == str2[j-2]:
+            elif str1[i-1] == str2[j-1]:
                 dp_table[i][j] = dp_table[i-1][j-1]
             else:
                 dp_table[i][j] = 1 + min(dp_table[i][j-1], dp_table[i-1][j], dp_table[i-1][j-1])
@@ -33,9 +34,10 @@ def oneAway(str1,str2):
     else:
         return False
 
-str1 = 'pale'
-str2 = 'bake'
-print(oneAway(str1,str2))
+str1 = 'horse'
+str2 = 'ros'
+# print(oneAway(str1,str2))
+print(editDistance(str1,str2))
 
 
 
