@@ -18,4 +18,3 @@ class SLLNode:
 
     def set_next(self, new_next):
         self.next = new_next
-
