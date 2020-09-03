@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61b6a965-4768-49ac-94bf-2a16db8fccbb" name="Default Changelist" comment="" />
+    <list default="true" id="61b6a965-4768-49ac-94bf-2a16db8fccbb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/Intersection.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/Intersection.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,36 +34,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/CCI/Stacks and Queues" />
       <recent name="$PROJECT_DIR$/LinkedList" />
       <recent name="$PROJECT_DIR$/CCI" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/venv/LinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.DirectedGraph">
-    <configuration name="BinarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DirectedGraph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MedianSortedArrays">
+    <configuration name="CheckBalnced" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,7 +54,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Trees and Graphs/DirectedGraph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Trees and Graphs/CheckBalnced.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -81,7 +63,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MinStack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LevelOrder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCI/Stacks and Queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCI/Trees and Graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Stacks and Queues/MinStack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Trees and Graphs/LevelOrder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QueueTwoStacks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ListOfDepths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCI/Stacks and Queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCI/Trees and Graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Stacks and Queues/QueueTwoStacks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Trees and Graphs/ListOfDepths.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Random" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MedianSortedArrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +113,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Random.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/MedianSortedArrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidateBST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CCI/Trees and Graphs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CCI/Trees and Graphs/ValidateBST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DirectedGraph" />
-        <item itemvalue="Python.BinarySearch" />
-        <item itemvalue="Python.QueueTwoStacks" />
-        <item itemvalue="Python.MinStack" />
-        <item itemvalue="Python.Random" />
+        <item itemvalue="Python.MedianSortedArrays" />
+        <item itemvalue="Python.ValidateBST" />
+        <item itemvalue="Python.CheckBalnced" />
+        <item itemvalue="Python.ListOfDepths" />
+        <item itemvalue="Python.LevelOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -180,72 +183,55 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1659" height="165" key="GridCell.Tab.0.bottom" timestamp="1592452387687">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1042" height="130" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1589513181031" />
-    <state width="1659" height="165" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1592452387687" />
-    <state width="1659" height="246" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588370415129" />
-    <state width="1899" height="130" key="GridCell.Tab.0.bottom/0.23.1920.974@0.23.1920.974" timestamp="1589572457896" />
-    <state width="1659" height="165" key="GridCell.Tab.0.center" timestamp="1592452387686">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1042" height="130" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1589513181030" />
-    <state width="1659" height="165" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1592452387686" />
-    <state width="1659" height="246" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1588370415128" />
-    <state width="1899" height="130" key="GridCell.Tab.0.center/0.23.1920.974@0.23.1920.974" timestamp="1589572457896" />
-    <state width="1659" height="165" key="GridCell.Tab.0.left" timestamp="1592452387685">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1042" height="130" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1589513181030" />
-    <state width="1659" height="165" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1592452387685" />
-    <state width="1659" height="246" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1588370415126" />
-    <state width="1899" height="130" key="GridCell.Tab.0.left/0.23.1920.974@0.23.1920.974" timestamp="1589572457895" />
-    <state width="1659" height="165" key="GridCell.Tab.0.right" timestamp="1592452387686">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1042" height="130" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1589513181030" />
-    <state width="1659" height="165" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1592452387686" />
-    <state width="1659" height="246" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1588370415128" />
-    <state width="1899" height="130" key="GridCell.Tab.0.right/0.23.1920.974@0.23.1920.974" timestamp="1589572457896" />
-    <state width="1716" height="242" key="GridCell.Tab.1.bottom" timestamp="1590700143440">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1716" height="242" key="GridCell.Tab.1.bottom/0.23.1680.944@0.23.1680.944" timestamp="1590700143440" />
-    <state width="1659" height="246" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1588370415132" />
-    <state width="1042" height="205" key="GridCell.Tab.1.bottom/0.23.1920.974@0.23.1920.974" timestamp="1589559314730" />
-    <state width="1716" height="242" key="GridCell.Tab.1.center" timestamp="1590700143439">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1716" height="242" key="GridCell.Tab.1.center/0.23.1680.944@0.23.1680.944" timestamp="1590700143439" />
-    <state width="1659" height="246" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1588370415131" />
-    <state width="1042" height="205" key="GridCell.Tab.1.center/0.23.1920.974@0.23.1920.974" timestamp="1589559314730" />
-    <state width="1716" height="242" key="GridCell.Tab.1.left" timestamp="1590700143439">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1716" height="242" key="GridCell.Tab.1.left/0.23.1680.944@0.23.1680.944" timestamp="1590700143439" />
-    <state width="1659" height="246" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1588370415130" />
-    <state width="1042" height="205" key="GridCell.Tab.1.left/0.23.1920.974@0.23.1920.974" timestamp="1589559314729" />
-    <state width="1716" height="242" key="GridCell.Tab.1.right" timestamp="1590700143440">
-      <screen x="0" y="23" width="1680" height="944" />
-    </state>
-    <state width="1716" height="242" key="GridCell.Tab.1.right/0.23.1680.944@0.23.1680.944" timestamp="1590700143440" />
-    <state width="1659" height="246" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1588370415131" />
-    <state width="1042" height="205" key="GridCell.Tab.1.right/0.23.1920.974@0.23.1920.974" timestamp="1589559314730" />
-    <state x="519" y="408" key="com.intellij.ide.util.TipDialog" timestamp="1595125402179">
+    <state width="1336" height="199" key="GridCell.Tab.0.bottom" timestamp="1598414064473">
       <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state x="519" y="429" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588722067152" />
-    <state x="519" y="408" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1595125402179" />
-    <state x="519" y="409" key="com.intellij.ide.util.TipDialog/0.23.1680.944@0.23.1680.944" timestamp="1592509137770" />
-    <state x="519" y="401" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1586830127937" />
-    <state x="593" y="421" key="com.intellij.ide.util.TipDialog/0.23.1920.974@0.23.1920.974" timestamp="1589557591699" />
-    <state x="2273" y="441" key="com.intellij.ide.util.TipDialog/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1588446600644" />
-    <state x="519" y="409" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1589229926943" />
-    <state x="649" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589572406146">
-      <screen x="0" y="23" width="1920" height="974" />
+    <state width="1336" height="199" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1598414064473" />
+    <state width="1659" height="165" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1592452387687" />
+    <state width="1068" height="152" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.941@1680.23.1920.1057" timestamp="1597882786807" />
+    <state width="1336" height="199" key="GridCell.Tab.0.center" timestamp="1598414064472">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state x="649" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.974@0.23.1920.974" timestamp="1589572406146" />
+    <state width="1336" height="199" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1598414064472" />
+    <state width="1659" height="165" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1592452387686" />
+    <state width="1068" height="152" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.941@1680.23.1920.1057" timestamp="1597882786806" />
+    <state width="1336" height="199" key="GridCell.Tab.0.left" timestamp="1598414064471">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1336" height="199" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1598414064471" />
+    <state width="1659" height="165" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1592452387685" />
+    <state width="1068" height="152" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.941@1680.23.1920.1057" timestamp="1597882786805" />
+    <state width="1336" height="199" key="GridCell.Tab.0.right" timestamp="1598414064472">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1336" height="199" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1598414064472" />
+    <state width="1659" height="165" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1592452387686" />
+    <state width="1068" height="152" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.941@1680.23.1920.1057" timestamp="1597882786807" />
+    <state width="1068" height="224" key="GridCell.Tab.1.bottom" timestamp="1597890947429">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1068" height="224" key="GridCell.Tab.1.bottom/0.23.1680.941@0.23.1680.941" timestamp="1597890947429" />
+    <state width="1716" height="242" key="GridCell.Tab.1.bottom/0.23.1680.944@0.23.1680.944" timestamp="1590700143440" />
+    <state width="1068" height="224" key="GridCell.Tab.1.center" timestamp="1597890947428">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1068" height="224" key="GridCell.Tab.1.center/0.23.1680.941@0.23.1680.941" timestamp="1597890947428" />
+    <state width="1716" height="242" key="GridCell.Tab.1.center/0.23.1680.944@0.23.1680.944" timestamp="1590700143439" />
+    <state width="1068" height="224" key="GridCell.Tab.1.left" timestamp="1597890947428">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1068" height="224" key="GridCell.Tab.1.left/0.23.1680.941@0.23.1680.941" timestamp="1597890947428" />
+    <state width="1716" height="242" key="GridCell.Tab.1.left/0.23.1680.944@0.23.1680.944" timestamp="1590700143439" />
+    <state width="1068" height="224" key="GridCell.Tab.1.right" timestamp="1597890947429">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1068" height="224" key="GridCell.Tab.1.right/0.23.1680.941@0.23.1680.941" timestamp="1597890947429" />
+    <state width="1716" height="242" key="GridCell.Tab.1.right/0.23.1680.944@0.23.1680.944" timestamp="1590700143440" />
+    <state x="519" y="408" key="com.intellij.ide.util.TipDialog" timestamp="1598405318182">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state x="519" y="408" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1598405318182" />
+    <state x="519" y="409" key="com.intellij.ide.util.TipDialog/0.23.1680.944@0.23.1680.944" timestamp="1592509137770" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,7 +286,64 @@
           <line>3</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AlternateOneZero.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DaysofWeek.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CheckIndependence.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CheckIndependence.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
