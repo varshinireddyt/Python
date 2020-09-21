@@ -18,21 +18,21 @@ def findLength(head):
         head = head.next
     return count
 def getIntersectionNode(l1,l2):
-        head1,head2 = l1, l2
-        len1,len2 = 0,0
-        len1 =findLength(head1)
-        len2 =findLength(head2)
-        head1,head2 = l1,l2
-        if len2 > len1:
-            for i in range(len2-len1):
-                head2 = head2.next
-        elif len1 > len2:
-            for i in range(len1-len2):
-                head1 = head1.next
-        while head2 != head1:
-            head1 = head1.next
+    head1,head2 = l1, l2
+    len1,len2 = 0,0
+    len1 =findLength(head1)
+    len2 =findLength(head2)
+    head1,head2 = l1,l2
+    if len2 > len1:
+        for i in range(len2-len1):
             head2 = head2.next
-        return head1.val
+    elif len1 > len2:
+        for i in range(len1-len2):
+                head1 = head1.next
+    while head2 != head1:
+        head1 = head1.next
+        head2 = head2.next
+    return head1.val
 
 
 
