@@ -6,22 +6,30 @@ Input: s1 = "ab" s2 = "eidbaooo"
 Output: True
 Explanation: s2 contains one permutation of s1 ("ba").
 """
-from collections import defaultdict
-import string
+from collections import Counter
 def checkInclusion(s1,s2):
+    l1,l2 = len(s1), len(s2)
+    if s2 is None or s2 is None:
+        return False
+    s1_count = Counter(s1)   #stores the count of s1 string
+    for i in range(0,l2-l1+1):
+        s2_char = s2[i:i+l1]   #sliding the s2 string by the length of s1 string
+        s2_count = Counter(s2_char) #storing the count of slided string
+        if s2_count == s1_count:    #comparing the two counters
+            return True
+    return False
 
-    #dic = defaultdict(int)
-
-    temp = dict(zip(string.ascii_lowercase, range(1, 27)))
-    temp = dict.fromkeys(temp, 0)
-
-
-
-
-
-s1 = 'ab'
-s2 = 'ab'
+s1 = 'aba'
+s2 = "eidbaooo"
 print(checkInclusion(s1,s2))
+
+
+
+
+
+
+
+
 
 
 
