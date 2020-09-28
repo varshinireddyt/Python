@@ -15,7 +15,6 @@ class Solution:
                   res = [i,j]
                   return res
     # Using Dictionary
-
     def twoSumHash(self,nums,target):
         dict = {}
         for k,v in enumerate(nums):
@@ -31,7 +30,7 @@ class Solution:
 
 
 
-nums = [3,3]
+nums = [3,2,4]
 target = 6
 sum = Solution()
 # print(sum.twoSum(nums,target))
