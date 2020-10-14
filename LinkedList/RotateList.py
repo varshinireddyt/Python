@@ -20,38 +20,36 @@ class RotateList:
     def rotateRight(self, head, k: int) -> ListNode:
         if not head:
             return None
+        if not head.next:
+            return head
         temp = head
-        count = 0
+        count = 1
         # Finding the length of the list
-        while temp is not None:
+        while temp.next:
             temp = temp.next
             count +=1
-
-        rotateRight = k%count
-        if k == 0 or rotateRight == 0:
+        rotate_right = k % count
+        # if k== 0 then no rotation is required
+        if k == 0 or rotate_right == 0:
             return head
-        for _ in range(rotateRight):
-            temp = temp.next
+        temp.next = head
+        new_tail = head
+        for _ in range(count - k % count - 1):
+            new_tail = new_tail.next
+        new_head = new_tail.next
+        new_tail.next = None
+        return new_head
 
-        first = second = head
-        while first is not None:
-            first = first.next
-            second = second.next
 
-        temp = second.next
-        second.next = None
-        first.next = head
-        head = temp
-
-        return head
 
 llist = RotateList()
+rotate = RotateList()
 for i in range(5, 0, -1):
     llist.push(i)
 print("Given List: ")
 llist.printList()
-llist.rotateRight(2)
+llist.rotateRight(llist,2)
 
 print("Rotate Linked List: ")
-llist.printList()
+rotate.printList()
 
