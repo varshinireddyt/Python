@@ -12,6 +12,13 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
              Total amount you can rob = 1 + 3 = 4.
 
 """
+"""
+Trivial cases:
+
+If there is one house, the answer is the value of that house.
+If there are two houses, the answer is max(house1, house2).
+If there are three houses, you can either pick the middle house or the sum of the first and the last house. Therefore, it boils down to max(house3 + house1, house2)
+"""
 #Using Dynamic Programming
 class Solution(object):
     def rob(self, nums):
