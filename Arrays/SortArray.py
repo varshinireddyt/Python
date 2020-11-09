@@ -38,27 +38,27 @@ class Solution:
 
         return nums
 
-    def doQuickSort(self,nums):
+    def insertionSort(self,arr):
+        for i in range(1,len(arr)):
+            pivot = arr[i]
+            j = i-1
+            while j >= 0 and arr[j] > pivot:
+                print('1. arr[j+1]', arr[j + 1], 'arr[j]', arr[j], 'j: ', j)
+                arr[j+1] = arr[j]
+                print('2. arr[j+1]', arr[j+1],'arr[j]', arr[j])
+                j -= 1
+            arr[j+1] = pivot
+            print('3. arr[j+1]', arr[j + 1], 'j:', j)
 
-
-        N = len(nums)
-
-
-
-
-
-
-
-
-
+        return arr
 
 
 
 li = Solution()
 #nums = [5,2,3,1]
-nums = [5,1,1,2,0,0]
-
-print(li.sortArray(nums))
+nums = [5,1,3,2,0,4]
+print(li.insertionSort(nums))
+#print(li.sortArray(nums))
 
 
 
