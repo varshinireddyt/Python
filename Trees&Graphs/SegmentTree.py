@@ -51,6 +51,6 @@ n = len(arr)
 x = (int)(ceil(log2(n)))
 tree= [0] * (2 * (int)(2**x))
 treeObj = SegmentTree()
-print(treeObj.build(tree, arr, 0, 0, len(arr)-1))
+print(treeObj.build(tree, arr, 1, 0, len(arr)-1))
 
 
