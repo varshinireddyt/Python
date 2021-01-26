@@ -6,6 +6,12 @@ Given a collection of intervals, find the minimum number of intervals you need t
 Input: [[1,2],[2,3],[3,4],[1,3]]
 Output: 1
 Explanation: [1,3] can be removed and the rest of intervals are non-overlapping.
+
+
+Using Greedy Approach:
+1. sort the array
+2. select the first activity
+3. compare the next best activity with the previous and repeat
 """
 
 
